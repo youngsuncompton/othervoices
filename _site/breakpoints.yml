@@ -1,0 +1,9 @@
+breakpoints:
+  mobile_1_25: 360
+  mobile_1_5: 375
+  mobile_1_75: 414
+  mobile_2: 480
+  mobile_3: 600
+  non_mobile_1: 768
+  non_mobile_2: 1024
+  non_mobile_3: 1280
