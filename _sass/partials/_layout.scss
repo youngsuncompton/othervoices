@@ -2,9 +2,7 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
-  min-height: 56px;
+  min-height: $spacing-unit * 2;
 
   // Positioning context for the mobile navigation icon
   position: relative;
@@ -44,11 +42,8 @@
 
   @include media-query($on-palm) {
     position: absolute;
-    top: 9px;
+    top: $spacing-unit / 2;
     right: $spacing-unit / 2;
-    background-color: $background-color;
-    border: 1px solid $grey-color-light;
-    border-radius: 5px;
     text-align: right;
 
     .menu-icon {
