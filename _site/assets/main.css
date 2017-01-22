@@ -11,8 +11,8 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #111;
+  font: 400 16px/1.5 "Spartan", Helvetica, Arial, sans-serif;
+  color: black;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
@@ -66,26 +66,13 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #2a7ae2;
+  color: black;
   text-decoration: none; }
   a:visited {
-    color: #1756a9; }
+    color: black; }
   a:hover {
-    color: #111;
+    color: black;
     text-decoration: underline; }
-
-/**
- * Blockquotes
- */
-blockquote {
-  color: #828282;
-  border-left: 4px solid #e8e8e8;
-  padding-left: 15px;
-  font-size: 18px;
-  letter-spacing: -1px;
-  font-style: italic; }
-  blockquote > :last-child {
-    margin-bottom: 0; }
 
 /**
  * Code formatting
@@ -167,7 +154,7 @@ pre {
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
-    color: #111;
+    color: black;
     line-height: 1.5; }
     .site-nav .page-link:not(:last-child) {
       margin-right: 20px; }
