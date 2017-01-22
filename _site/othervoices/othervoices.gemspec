@@ -4,7 +4,7 @@ Gem::Specification.new do |spec|
   spec.name          = "othervoices"
   spec.version       = "0.1.0"
   spec.authors       = ["yscompton"]
-  spec.email         = ["youngsun_compton@moma.org"]
+  spec.email         = ["youngsuncompton@gmail.com"]
 
   spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
