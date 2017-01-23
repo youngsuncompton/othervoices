@@ -15,7 +15,7 @@ figure > img {
   display: block; }
 
 figcaption {
-  font-size: 12.15px; }
+  font-size: 13.5px; }
 
 .wrapper {
   max-width: -webkit-calc(800px - (24px * 2));
@@ -278,7 +278,7 @@ figcaption {
     color: #099; }
 
 .home p {
-  font-size: 36px;
+  font-size: 40px;
   letter-spacing: -1px;
   margin-bottom: 48px;
   text-align: center; }
@@ -297,7 +297,7 @@ figcaption {
     margin-bottom: 24px; }
 
 .post-meta {
-  font-size: 12.15px;
+  font-size: 13.5px;
   color: #828282;
   letter-spacing: .2px; }
 
@@ -308,11 +308,11 @@ figcaption {
 
 @media screen and (max-width: 600px) {
   .home p {
-    font-size: 22.5px;
+    font-size: 25px;
     letter-spacing: normal; }
 
   .post-list a {
-    font-size: 22.5px;
+    font-size: 25px;
     letter-spacing: normal; } }
 .page-content {
   padding: 48px 0; }
@@ -327,18 +327,18 @@ figcaption {
     margin-bottom: 24px; }
 
 .post-meta {
-  font-size: 12.15px;
+  font-size: 13.5px;
   color: #828282; }
 
 .post-link {
   display: block;
-  font-size: 36px; }
+  font-size: 40px; }
 
 .post-header {
   margin-bottom: 24px; }
 
 .post-title {
-  font-size: 36px;
+  font-size: 40px;
   letter-spacing: -1px;
   line-height: 1; }
   @media screen and (max-width: 800px) {
@@ -348,30 +348,30 @@ figcaption {
 .post-content {
   margin-bottom: 24px; }
   .post-content h2 {
-    font-size: 36px; }
+    font-size: 40px; }
     @media screen and (max-width: 800px) {
       .post-content h2 {
         font-size: 28px; } }
   .post-content h3 {
-    font-size: 30.15px; }
+    font-size: 33.5px; }
     @media screen and (max-width: 800px) {
       .post-content h3 {
         font-size: 22px; } }
   .post-content h4 {
-    font-size: 18px; }
+    font-size: 20px; }
     @media screen and (max-width: 800px) {
       .post-content h4 {
-        font-size: 18px; } }
+        font-size: 20px; } }
 
 .post-content p {
-  font-size: 36px; }
+  font-size: 40px; }
 
 .post-content p + p {
   text-indent: 1em; }
 
 @media screen and (max-width: 600px) {
   .post-content p {
-    font-size: 18px; } }
+    font-size: 20px; } }
 @font-face {
   font-family: "Spartan";
   src: url("../assets/spartan/SpartBooCla");
@@ -385,7 +385,7 @@ ul, ol, dl, figure,
 .site-title {
   background-color: white;
   float: left;
-  font-size: 54px;
+  font-size: 60px;
   letter-spacing: -1.5px;
   margin-bottom: 0;
   position: fixed;
@@ -401,10 +401,10 @@ ul, ol, dl, figure,
 
 @media screen and (max-width: 600px) {
   .site-title {
-    font-size: 36px;
+    font-size: 40px;
     letter-spacing: normal; } }
 body {
-  font: 400 18px/1.5 "Helvetica", Helvetica, Arial, sans-serif;
+  font: 400 20px/1.5 "Helvetica", Helvetica, Arial, sans-serif;
   color: black;
   background-color: white;
   -webkit-text-size-adjust: 100%;
