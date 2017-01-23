@@ -394,6 +394,11 @@ ul, ol, dl, figure,
   .site-title, .site-title:visited {
     color: black; }
 
+.site-title {
+  text-decoration: none; }
+  .site-title, .site-title:hover {
+    text-decoration: none; }
+
 @media screen and (max-width: 600px) {
   .site-title {
     font-size: 36px;

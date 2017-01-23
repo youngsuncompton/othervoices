@@ -21,6 +21,16 @@ ul, ol, dl, figure,
   }
 }
 
+.site-title {
+  text-decoration: none;
+  &,
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+
+
 @include media-query($on-palm) {
   .site-title {
     font-size: $base-font-size * 2;
