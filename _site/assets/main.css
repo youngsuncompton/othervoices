@@ -383,7 +383,7 @@ ul, ol, dl, figure,
   margin-bottom: 12px; }
 
 .site-title {
-  background-color: #EBFFD3;
+  background-color: #F2FFD8;
   float: left;
   font-size: 54px;
   letter-spacing: -1.5px;
@@ -406,7 +406,7 @@ ul, ol, dl, figure,
 body {
   font: 400 18px/1.5 "Helvetica", Helvetica, Arial, sans-serif;
   color: black;
-  background-color: #EBFFD3;
+  background-color: #F2FFD8;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
