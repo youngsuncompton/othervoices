@@ -1,0 +1,35 @@
+.home p {
+  font-size: $base-font-size * 2;
+  letter-spacing: -1px;
+  margin-bottom: $spacing-unit * 2;
+}
+
+
+// Page Content
+
+.page-content {
+  padding: ($spacing-unit * 2) 0;
+}
+
+.page-heading {
+  font-size: 20px;
+}
+
+.post-list {
+  letter-spacing: -1px;
+  list-style: none;
+  margin-left: 0;
+  > li {
+    margin-bottom: $spacing-unit;
+  }
+}
+
+.post-meta {
+  font-size: $small-font-size;
+  color: $grey-color;
+}
+
+.post-link {
+  display: block;
+  font-size: $base-font-size * 2;
+}
