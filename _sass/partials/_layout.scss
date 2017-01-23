@@ -7,21 +7,6 @@
   position: relative;
 }
 
-.site-title {
-  background-color: white;
-  float: left;
-  font-size: $base-font-size * 3;
-  letter-spacing: -1.5px;
-  margin-bottom: 0;
-  position: fixed;
-  width: 100%;
-
-  &,
-  &:visited {
-    color: $text-color;
-  }
-}
-
 .site-nav {
   display: none;
   float: right;

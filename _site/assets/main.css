@@ -21,7 +21,7 @@ figcaption {
   max-width: -webkit-calc(800px - (24px * 2));
   max-width: calc(800px - (24px * 2));
   margin-right: auto;
-  margin-left: auto;
+  margin-left: 0;
   padding-right: 24px;
   padding-left: 24px; }
   @media screen and (max-width: 800px) {
@@ -46,17 +46,6 @@ figcaption {
   background-color: white;
   min-height: 48px;
   position: relative; }
-
-.site-title {
-  background-color: white;
-  float: left;
-  font-size: 54px;
-  letter-spacing: -1.5px;
-  margin-bottom: 0;
-  position: fixed;
-  width: 100%; }
-  .site-title, .site-title:visited {
-    color: black; }
 
 .site-nav {
   display: none;
@@ -292,7 +281,8 @@ figcaption {
 .home p {
   font-size: 36px;
   letter-spacing: -1px;
-  margin-bottom: 48px; }
+  margin-bottom: 48px;
+  text-align: center; }
 
 .page-content {
   padding: 48px 0; }
@@ -309,12 +299,22 @@ figcaption {
 
 .post-meta {
   font-size: 12.15px;
-  color: #828282; }
+  color: #828282;
+  letter-spacing: .2px; }
 
 .post-link {
   display: block;
-  font-size: 36px; }
+  text-align: center;
+  width: 100%; }
 
+@media screen and (max-width: 600px) {
+  .home p {
+    font-size: 22.5px;
+    letter-spacing: normal; }
+
+  .post-list a {
+    font-size: 22.5px;
+    letter-spacing: normal; } }
 .page-content {
   padding: 48px 0; }
 
@@ -370,6 +370,9 @@ figcaption {
 .post-content p + p {
   text-indent: 1em; }
 
+@media screen and (max-width: 600px) {
+  .post-content p {
+    font-size: 18px; } }
 @font-face {
   font-family: "Spartan";
   src: url("../assets/spartan/SpartBooCla");
@@ -380,6 +383,21 @@ ul, ol, dl, figure,
 .highlight {
   margin-bottom: 12px; }
 
+.site-title {
+  background-color: white;
+  float: left;
+  font-size: 54px;
+  letter-spacing: -1.5px;
+  margin-bottom: 0;
+  position: fixed;
+  width: 100%; }
+  .site-title, .site-title:visited {
+    color: black; }
+
+@media screen and (max-width: 600px) {
+  .site-title {
+    font-size: 36px;
+    letter-spacing: normal; } }
 body {
   font: 400 18px/1.5 "Spartan", Helvetica, Arial, sans-serif;
   color: black;
@@ -390,9 +408,6 @@ body {
   -o-font-feature-settings: "kern" 1;
   font-feature-settings: "kern" 1;
   font-kerning: normal; }
-  @media screen and (max-width: 600px) {
-    body {
-      font-size: 18px; } }
 
 ul, ol {
   margin-left: 24px; }
@@ -402,7 +417,8 @@ li > ol {
   margin-bottom: 0; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 400; }
+  font-weight: 400;
+  text-align: left; }
 
 a {
   color: black;

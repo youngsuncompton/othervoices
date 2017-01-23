@@ -76,3 +76,9 @@
 .post-content p + p {
   text-indent: 1em;
 }
+
+@include media-query($on-palm) {
+  .post-content p {
+    font-size: $base-font-size;
+  }
+  }
