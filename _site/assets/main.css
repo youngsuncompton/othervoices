@@ -404,7 +404,7 @@ ul, ol, dl, figure,
     font-size: 36px;
     letter-spacing: normal; } }
 body {
-  font: 400 18px/1.5 "Spartan", Helvetica, Arial, sans-serif;
+  font: 400 18px/1.5 "Helvetica", Helvetica, Arial, sans-serif;
   color: black;
   background-color: white;
   -webkit-text-size-adjust: 100%;
