@@ -43,7 +43,6 @@ figcaption {
     fill: #828282; }
 
 .site-header {
-  background-color: white;
   min-height: 48px;
   position: relative; }
 
@@ -384,13 +383,14 @@ ul, ol, dl, figure,
   margin-bottom: 12px; }
 
 .site-title {
-  background-color: white;
+  background-color: #EBFFD3;
   float: left;
   font-size: 54px;
   letter-spacing: -1.5px;
   margin-bottom: 0;
   position: fixed;
-  width: 100%; }
+  width: 100%;
+  padding: 0 24px 0 0; }
   .site-title, .site-title:visited {
     color: black; }
 
@@ -406,7 +406,7 @@ ul, ol, dl, figure,
 body {
   font: 400 18px/1.5 "Helvetica", Helvetica, Arial, sans-serif;
   color: black;
-  background-color: white;
+  background-color: #EBFFD3;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;

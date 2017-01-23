@@ -7,13 +7,14 @@ ul, ol, dl, figure,
 
 
 .site-title {
-  background-color: white;
+  background-color:$background-color;
   float: left;
   font-size: $base-font-size * 3;
   letter-spacing: -1.5px;
   margin-bottom: 0;
   position: fixed;
   width: 100%;
+  padding: 0 $spacing-unit 0 0;
 
   &,
   &:visited {
