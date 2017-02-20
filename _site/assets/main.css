@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /**
  * Reset some basic elements
  */
@@ -55,7 +56,7 @@ figcaption {
     color: black;
     font-kerning: auto;
     letter-spacing: -1px;
-    line-height: 1.5; }
+    line-height: 1.25; }
     .site-nav .page-link:not(:last-child) {
       margin-right: 20px; }
   @media screen and (max-width: 600px) {
@@ -373,9 +374,14 @@ figcaption {
   .post-content p {
     font-size: 20px; } }
 @font-face {
-  font-family: "Spartan";
-  src: url("../assets/spartan/SpartBooCla");
-  font-weight: normal; }
+  font-family: "Graebenbach-Med";
+  src: url("../assets/graebenbach/Graebenbach-Medium.eot");
+  src: local("☺"), url("../assets/graebenbach/Graebenbach-Medium.woff") format("woff"), url("../assets/graebenbach/Graebenbach-Medium.ttf") format("truetype"); }
+@font-face {
+  font-family: "Graebenbach-Med";
+  font-style: italic;
+  src: url("../assets/graebenbach/Graebenbach-MediumItalic.eot");
+  src: local("☺"), url("../assets/graebenbach/Graebenbach-MediumItalic.woff") format("woff"), url("../assets/graebenbach/Graebenbach-MediumItalic.ttf") format("truetype"); }
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
@@ -404,7 +410,7 @@ ul, ol, dl, figure,
     font-size: 40px;
     letter-spacing: normal; } }
 body {
-  font: 400 20px/1.5 "Helvetica", Helvetica, Arial, sans-serif;
+  font: 400 20px/1.25 "Graebenbach-Med", Helvetica, Arial, sans-serif;
   color: black;
   background-color: white;
   -webkit-text-size-adjust: 100%;

@@ -1,6 +1,18 @@
-// Spartan
+// Graebenbach
+
 @font-face {
-  font-family:"Spartan";
-  src: url('../assets/spartan/SpartBooCla');
-  font-weight: normal;
-}
+  font-family: "Graebenbach-Med";
+  src: url("../assets/graebenbach/Graebenbach-Medium.eot");
+  src: local("☺"),
+    url("../assets/graebenbach/Graebenbach-Medium.woff") format("woff"),
+    url("../assets/graebenbach/Graebenbach-Medium.ttf") format("truetype");
+  }
+
+@font-face {
+  font-family: "Graebenbach-Med";
+  font-style: italic;
+  src: url("../assets/graebenbach/Graebenbach-MediumItalic.eot");
+  src: local("☺"),
+    url("../assets/graebenbach/Graebenbach-MediumItalic.woff") format("woff"),
+    url("../assets/graebenbach/Graebenbach-MediumItalic.ttf") format("truetype");
+  }
