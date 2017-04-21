@@ -19,16 +19,16 @@ figcaption {
   font-size: 13.5px; }
 
 .wrapper {
-  max-width: -webkit-calc(800px - (24px * 2));
-  max-width: calc(800px - (24px * 2));
+  max-width: -webkit-calc(1024px - (24px * 2));
+  max-width: calc(1024px - (24px * 2));
   margin-right: auto;
-  margin-left: 0;
+  margin-left: auto;
   padding-right: 24px;
   padding-left: 24px; }
   @media screen and (max-width: 800px) {
     .wrapper {
-      max-width: -webkit-calc(800px - (24px));
-      max-width: calc(800px - (24px));
+      max-width: -webkit-calc(1024px - (24px));
+      max-width: calc(1024px - (24px));
       padding-right: 12px;
       padding-left: 12px; } }
 
@@ -44,8 +44,12 @@ figcaption {
     fill: #828282; }
 
 .site-header {
-  min-height: 48px;
-  position: relative; }
+  min-height: 72px;
+  position: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center; }
 
 .site-nav {
   display: none;
@@ -59,34 +63,6 @@ figcaption {
     line-height: 1.25; }
     .site-nav .page-link:not(:last-child) {
       margin-right: 20px; }
-  @media screen and (max-width: 600px) {
-    .site-nav {
-      position: absolute;
-      right: 12px;
-      text-align: right;
-      top: 12px; }
-      .site-nav .menu-icon {
-        display: block;
-        float: right;
-        height: 26px;
-        line-height: 0;
-        padding-top: 10px;
-        text-align: center;
-        width: 36px; }
-        .site-nav .menu-icon > svg path {
-          fill: #424242; }
-      .site-nav .trigger {
-        clear: both;
-        display: none; }
-      .site-nav:hover .trigger {
-        display: block;
-        padding-bottom: 5px; }
-      .site-nav .page-link {
-        display: block;
-        padding: 5px 10px;
-        margin-left: 20px; }
-        .site-nav .page-link:not(:last-child) {
-          margin-right: 0; } }
 
 .site-footer {
   border-top: 1px solid #e8e8e8;
@@ -279,7 +255,7 @@ figcaption {
     color: #099; }
 
 .home p {
-  font-size: 40px;
+  font-size: 50px;
   letter-spacing: -1px;
   margin-bottom: 48px;
   text-align: center; }
@@ -294,12 +270,16 @@ figcaption {
   letter-spacing: -1px;
   list-style: none;
   margin-left: 0; }
-  .post-list > li {
+  .post-list >
+  > li {
     margin-bottom: 24px; }
 
+.post-list a {
+  font-size: 50px; }
+
 .post-meta {
-  font-size: 13.5px;
   color: #828282;
+  font-size: 13.5px;
   letter-spacing: .2px; }
 
 .post-link {
@@ -316,7 +296,7 @@ figcaption {
     font-size: 25px;
     letter-spacing: normal; } }
 .page-content {
-  padding: 48px 0; }
+  padding: 96px 0; }
 
 .page-heading {
   font-size: 20px; }
@@ -372,7 +352,10 @@ figcaption {
 
 @media screen and (max-width: 600px) {
   .post-content p {
-    font-size: 20px; } }
+    font-size: 20px; }
+
+  .page-content {
+    padding: 60px 0; } }
 @font-face {
   font-family: "Graebenbach-Med";
   src: url("../assets/graebenbach/Graebenbach-Medium.eot");
@@ -389,14 +372,8 @@ ul, ol, dl, figure,
   margin-bottom: 12px; }
 
 .site-title {
-  background-color: white;
-  float: left;
   font-size: 60px;
-  letter-spacing: -1.5px;
-  margin-bottom: 0;
-  position: fixed;
-  width: 100%;
-  padding: 0 24px 0 0; }
+  letter-spacing: -1.5px; }
   .site-title, .site-title:visited {
     color: black; }
 

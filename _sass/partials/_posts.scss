@@ -1,7 +1,7 @@
 // Page Content
 
 .page-content {
-  padding: ($spacing-unit * 2) 0;
+  padding: ($spacing-unit * 4) 0;
 }
 
 .page-heading {
@@ -81,4 +81,8 @@
   .post-content p {
     font-size: $base-font-size;
   }
+
+  .page-content {
+    padding: ($spacing-unit * 2.5) 0;
   }
+}

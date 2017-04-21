@@ -1,5 +1,5 @@
 .home p {
-  font-size: $base-font-size * 2;
+  font-size: $base-font-size * 2.5;
   letter-spacing: -1px;
   margin-bottom: $spacing-unit * 2;
   text-align: center;
@@ -19,19 +19,25 @@
   letter-spacing: -1px;
   list-style: none;
   margin-left: 0;
+  >
   > li {
     margin-bottom: $spacing-unit;
   }
 }
 
+.post-list a {
+  font-size: $base-font-size * 2.5;
+}
+
 .post-meta {
-  font-size: $small-font-size;
   color: $grey-color;
+  font-size: $small-font-size;
   letter-spacing: .2px;
 }
 
 .post-link {
   display: block;
+  // font-size: $base-font-size * 2.5;
   text-align: center;
   width: 100%;
 }
